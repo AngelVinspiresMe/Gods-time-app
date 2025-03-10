@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+}
+#timeDisplay, #verseDisplay, #verseOfDayDisplay {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    color: #2575fc;
+    border-radius: 5px;
+}
+.buttons button:hover {
+    background: #e0e0e0;
+}
